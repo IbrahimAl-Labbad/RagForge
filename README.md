@@ -10,7 +10,6 @@ A powerful Document Q&A application that lets you interact with your documents u
 - MiniConda
 
 ---
-
 ## Installation
 
 ### 1. Install System Dependencies
@@ -37,6 +36,21 @@ conda activate RAGFORGE
 ```
 
 ---
+
+### Install the required packages
+
+```bash
+$ pip install -r requirements.txt
+```
+
+### Setup the environment variables
+
+```bash
+$ cp .env.example .env
+```
+
+Set your environment variables in the `.env` file. Like `OPENAI_API_KEY` value.
+
 
 ## License
 
